@@ -11,7 +11,7 @@
   max-height: 756px;
   display: flex;
   align-items: center;
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
 }
 
 .logo {
@@ -100,7 +100,7 @@
 
 .two-columns__paragraph {
   line-height: 34px;
-  font-size: 24px;  
+  font-size: 24px;
   margin: 30px 0 0;
 }
 
@@ -193,7 +193,7 @@
   line-height: 51px;
   font-size: 36px;
   text-decoration: none;
-  color:  #2f80ed;;
+  color:  #2f80ed;
 }
 
 .kaufman {
@@ -249,7 +249,7 @@
 }
 
 .logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg)
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
@@ -285,7 +285,6 @@
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
-  font-weight: bold;
   text-decoration: none;
   color: white;
   font-weight: normal;
