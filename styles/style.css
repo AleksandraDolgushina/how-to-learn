@@ -141,6 +141,7 @@
   flex-wrap: wrap;
   margin: 0 auto;
   list-style: none;
+  padding-left: 0;
 }
 
 .table__cell {
@@ -221,6 +222,7 @@
 
 .section-subtitle_theme_dark {
   color: white;
+  z-index: 1;
 }
 
 .kaufman__triangle {
