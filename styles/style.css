@@ -13,12 +13,12 @@
   align-items: center;
   background-color: #f2f2f2;
   position: relative;
+  z-index: 1;
 }
 
 .logo {
   width: 183px;
   height: 32px;
-  z-index: 1;
 }
 
 .logo_place_header {
@@ -34,7 +34,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 2;
 }
 
 .header__subtitle {
@@ -44,7 +43,6 @@
   left: 64px;
   line-height: 25px;
   font-size: 18px;
-  z-index: 2;
   margin: 0;
 }
 
@@ -61,7 +59,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__square-pic {
@@ -72,6 +70,7 @@
   top: 64px;
   background-color: #2f80ed;
   background-size: cover;
+  z-index: -2;
 }
 
 .description {
@@ -204,6 +203,7 @@
   background-color:#1f1f1f;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -211,18 +211,14 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  z-index: 1;
 }
 
 .section-title_theme_dark {
-  position: relative;
   color: white;
-  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -230,7 +226,7 @@
   position: absolute;
   right: -210px;
   top: 0;
-  z-index: 0;
+  z-index: -1;
   width: 877px;
   height: 877px;
   background-size: contain;
